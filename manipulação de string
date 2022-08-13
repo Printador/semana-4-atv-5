@@ -1,0 +1,15 @@
+#Independente da forma que o usuário escrever o input será sempre com a primeira letra maiúscula e as demais minúsculas.
+escolha = input("Escreva Sim ou Não:")
+escolha = escolha.lower()
+escolha = escolha.capitalize()
+print(escolha)
+
+#Independente da forma que o usuário escrever o input será sempre com todas as letras minúsculas.
+escolha = input("Escreva sim ou não:")
+escolha = escolha.lower()
+print(escolha)
+
+#Independente da forma que o usuário escrever o input será sempre com todas as letras maiúsculas.
+escolha = input("Escreva SIM ou NÃO:")
+escolha = escolha.upper()
+print(escolha)
